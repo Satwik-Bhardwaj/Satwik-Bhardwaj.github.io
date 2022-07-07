@@ -1,57 +1,30 @@
 body{
     min-width: 300px;
 }
+.intro{
+    height: 600px;
+}
+.sec-two{
+    height: 6000px;
+    border-radius: 20px;
+}
 @media (min-width: 0px) {
-    .intro{
-        height: 100vh;
-        width: 100%;
-    }
     .hd-lg{
-        font-size: calc(4rem + 1.5vw) !important;
+        font-size: calc(4rem + 1.5vw);
     }
   }
 @media (min-width: 300px) {
-    .intro{
-        height: 100vh;
-        width: 100%;
-    }
     .hd-lg{
-        font-size: calc(4rem + 1.5vw) !important;
+        font-size: calc(4rem + 1.5vw);
     }
   }
   @media (min-width: 768px) {
-    .intro{
-        height: 100vh;
-        width: 100%;
-    }
     .hd-lg{
-        font-size: 120px;
+        font-size: calc(4rem + 1.5vw);
     }
   }
-  @media (min-width: 992px) {
-    .intro{
-        height: 100vh;
-        width: 100%;
-    }
-    .hd-lg{
-        font-size: 320px;
-    }
-  }
-  @media (min-width: 1200px) {
-    .intro{
-        height: 100vh;
-        width: 100%;
-    }
-    .hd-lg{
-        font-size: 320px;
-    }
-  }
-  @media (min-width: 1400px) {
-    .intro{
-        height: 100vh;
-        width: 100%;
-    }
-    .hd-lg{
-        font-size: 320px;
-    }
-  }
+
+.sec-two{
+    background-color: #f08686;
+    height: 200px;
+}
