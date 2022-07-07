@@ -1,7 +1,45 @@
-.intro{
-    height: 100vh;
-    width: 100%;
-}
-.hd-lg{
-    font-size: 320px;
-}
+@media (min-width: 576px) {
+    .intro{
+        height: 100vh;
+        width: 100%;
+    }
+    .hd-lg{
+        font-size: 120px;
+    }
+  }
+  @media (min-width: 768px) {
+    .intro{
+        height: 100vh;
+        width: 100%;
+    }
+    .hd-lg{
+        font-size: 120px;
+    }
+  }
+  @media (min-width: 992px) {
+    .intro{
+        height: 100vh;
+        width: 100%;
+    }
+    .hd-lg{
+        font-size: 320px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .intro{
+        height: 100vh;
+        width: 100%;
+    }
+    .hd-lg{
+        font-size: 320px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .intro{
+        height: 100vh;
+        width: 100%;
+    }
+    .hd-lg{
+        font-size: 320px;
+    }
+  }
