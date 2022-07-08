@@ -37,6 +37,9 @@ body{
     .hd-md{
         font-size: calc(2rem + 1.5vw);
     }
+    .hd-sm{
+        font-size: calc(0.5rem + 1.5vw);
+    }
   }
   @media (min-width: 768px) {
     .hd-lg{
@@ -44,5 +47,8 @@ body{
     }
     .hd-md{
         font-size: calc(2rem + 1.5vw);
+    }
+    .hd-sm{
+        font-size: calc(0.5rem + 1.5vw);
     }
   }
