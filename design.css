@@ -23,6 +23,11 @@ body{
 .abt-fn{
     font-family: 'Varela Round', sans-serif;
 }
+
+.transition300s{
+    transition: 0.7s;
+}
+
 @media (min-width: 0px) {
     .hd-lg{
         font-size: calc(4rem + 1.5vw);
