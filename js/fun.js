@@ -1,6 +1,7 @@
+let introCard = document.querySelector(".intro");
 window.addEventListener("scroll", function() {
-    const distance = window.scrollY;
+    distance = window.scrollY;
     if (distance <= 500) {
-        document.querySelector(".intro").style.transform="translateY("+1*distance+"px)";
+        introCard.style.transform="matrix(1, 0, 0, 1, 0, "+Math.floor(distance)+")";
     }
 })
